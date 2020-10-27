@@ -6,8 +6,8 @@ reasons that I can't come up with right now.
 
 # Installation
 
-Copy files to your modules folder in your SimpleSAMLphp installation. By default
-this module is enabled out of the box.
+Copy files to your modules folder in your SimpleSAMLphp installation into a
+folder called 'blank'. By default this module is enabled out of the box.
 
 # Configuration
 
@@ -33,7 +33,14 @@ $metadata['https://somewhere/saml/saml2/idp/metadata.php'] = [
 
 And that's all you should need to set this up.
 
+# Todo
+
+- Make it so that we hit the index page
+- Index page autosubmits after a configured amount of time
+- Index page, based on Service Provider, present configured attributes to submit
+
 # Links
 
 https://simplesamlphp.org/
+
 https://github.com/simplesamlphp/simplesamlphp
